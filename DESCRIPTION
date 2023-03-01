@@ -1,0 +1,33 @@
+Package: OSSDemoDayTune
+Title: Slides for OSS Demo Day Talk On Tune Error Handling
+Version: 0.0.0.9000
+Authors@R: 
+    person("Simon", "Couch", , "simon.couch@posit.co", role = c("aut", "cre"))
+Description: Slides for OSS Demo Day Talk On Tune Error Handling
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    dials (>= 1.0.0),
+    dplyr (>= 1.0.8),
+    foreach,
+    generics (>= 0.1.2),
+    ggplot2,
+    glue (>= 1.6.2),
+    hardhat (>= 1.2.0),
+    parsnip (>= 1.0.2),
+    purrr (>= 1.0.0),
+    recipes (>= 1.0.4),
+    rlang (>= 1.0.2),
+    rsample (>= 1.0.0),
+    tibble (>= 3.1.0),
+    tidyr (>= 1.2.0),
+    tidymodels,
+    tune (>= 1.0.1.9003),
+    vctrs (>= 0.4.1),
+    workflows (>= 1.0.0),
+    yardstick (>= 1.0.0),
+    magrittr
+Remotes:
+    tidymodels/tune
